@@ -1,0 +1,25 @@
+.container-main,
+.form {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 20px;
+  padding: 25px 0;
+}
+
+.container-main {
+  background-color: rgb(236, 236, 236);
+  height: 100vh;
+}
+.form-header,
+.form-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.form-footer {
+  flex-direction: column;
+}
